@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:969px) and (max-width:1024px){
+	#hero .herobtn a, .btn-matrix{padding:12px 10px;}
+}
+
+@media screen and (max-width:1023px) {
+	.dropdown-menu .dropdown .dropdown-menu {
+        margin:0;
+        border-width: 1px;
+    }
+	
+	#hero .herocontainer{padding-left:20px;}
+	.mainnavigation .navbar{padding:2rem 2rem;}
+	.personal{padding:60px 15px 40px;}
+	.personalcolone{padding-right:15px; padding-bottom:20px;}
+	.personal ul{padding:0;}
+	.techtalent a.btn-matrix{margin-bottom:20px; display:inline-block;}
+}
+
+
+@media screen and (max-width: 767px) {
+  #hero .herocontainer{position:relative; padding:0 15px;}
+  #hero .herocontainer h1{font-size:26px;}
+  #hero .herobtn{margin-top:40px;}
+  .personalcolone h3, .hearsection h3{font-size:26px;}
+  .techtalent h2{font-size:26px !important;}
+  .personal{height:auto;}
+  .testimonial{padding:50px 15px;}
+  .item p{padding:0px 15px;}
+  .carouselsection .owl-carousel .owl-nav.disabled{display:none;}
+  .footer{padding:15px 15px;}
+  .mainnavigation .collapse.navbar-collapse ul.navbar-nav.ml-5{margin:0 !important; padding:0;}
+}
+
+
+@media screen and (max-width:479px){
+#hero .herobtn a, .btn-matrix{display:block; margin-bottom:15px;}
+.personal li{width:100%; margin:0px 0 20px;}
+.item p{padding:0px 15px;}
+.carouselsection .owl-carousel .owl-nav{display:none;}
+.carouselsection{padding:1rem 15px;}
+}
